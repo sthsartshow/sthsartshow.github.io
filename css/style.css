@@ -1,0 +1,143 @@
+@font-face
+{
+    font-family: AvenirLight;
+    src: url( "font/AvenirNext-UltraLight.ttf" );
+}
+
+body , html
+{
+    margin: 0;
+}
+
+#themeImage
+{
+    max-width: 100%;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1
+{
+    font-size: 70px;
+    max-width: 80%;
+    margin: 5px 0px;
+    font-family: AvenirLight;
+}
+
+h2
+{
+    font-size: 35px;
+    margin: 0;
+    font-family: AvenirLight;
+}
+
+h3
+{
+    font-family: AvenirLight;
+    font-size: 40px;
+}
+.center
+{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#themeDescription
+{
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 170%;
+}
+
+#gallery
+{
+    padding: 10px 40px;
+    background-color: #299E29;
+    color: white;
+    font-family: AvenirLight;
+    font-size: 25px;
+    display: inline;
+    border-radius: 5px;
+    border: 1px solid #299E29;
+    
+    -webkit-transition: background-color .25s;
+    transition: background-color .25s;
+}
+#gallery:hover
+{
+    background-color: white;
+    color: #299E29;
+}
+.grid
+{
+    overflow: hidden;
+}
+.grid div
+{
+    float: left;
+    width: 23%;
+    margin: 1% 1%;
+    text-align: center;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.grid img
+{
+    max-width: 100%;
+}
+
+#banner
+{
+    font-family: AvenirLight;
+    font-size: 35px;
+    padding: 10px 0px;
+    background-color: #299E29;
+    color: white;
+}
+
+#pieceDescription
+{
+    font-family: Arial;
+    font-size: 22px;
+    line-height: 170%;
+    text-indent: 70px;
+}
+
+#info
+{
+    font-family: AvenirLight;
+    font-size: 30px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+#name
+{
+    float: left;
+    padding: 10px 0px;
+}
+#download
+{
+    float: right;
+    padding: 10px 20px;
+    background-color: #299E29;
+    color: white;
+    display: inline;
+    border-radius: 5px;
+    border: 1px solid #299E29;
+    
+    -webkit-transition: background-color .25s;
+    transition: background-color .25s;
+}
+#download:hover
+{
+    background-color: white;
+    color: #299E29;
+}
