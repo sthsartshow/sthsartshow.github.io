@@ -132,6 +132,7 @@ h3
     display: inline;
     border-radius: 5px;
     border: 1px solid #299E29;
+    margin-bottom: 10px;
     
     -webkit-transition: background-color .25s;
     transition: background-color .25s;
