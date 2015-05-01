@@ -142,3 +142,13 @@ h3
     background-color: white;
     color: #299E29;
 }
+#slideshow
+{
+    font-family: Avenir;
+    font-size: 25px;
+    margin-top: 40px;
+}
+#slideshow:hover
+{
+    color: #CCC;
+}
